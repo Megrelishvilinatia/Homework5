@@ -20,4 +20,18 @@
 .main-picture{
     margin-top: 27px;
 }
-
+.text1{
+    display: inline-block;
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+.capslock{
+    border-right: 1px solid #000000;
+    padding-right: 10px
+}
+.inf{
+    padding-left: 10px;
+}
+.box-wrapper{
+    display: inline-block;
+}
