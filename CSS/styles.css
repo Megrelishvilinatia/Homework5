@@ -86,4 +86,12 @@ h2{
 }
 .div-footer{
     margin-top: 68px;
+    margin-bottom: 39px;
+}
+.flogo{
+    border-right: 1px solid #363E97;
+    padding-right: 35px;
+}
+.ylogo{
+    margin-left: 31px;
 }
