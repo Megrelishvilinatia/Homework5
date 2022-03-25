@@ -4,6 +4,7 @@
  .navbar{
     display: inline-block;
     margin-right: 20px;
+    color: #3D58A6;
 }  
 .top-side{
     vertical-align: middle;
@@ -12,6 +13,12 @@
 }
 .html-logo{
     margin-right: 54px;
+}
+.mainpage{
+    color: #EE4036;
+}
+.clr{
+    color: #3D58A6;
 }
 .wrapper-div{
     margin-left: 30px;
@@ -34,6 +41,9 @@
 }
 .content-box{
     margin-top: 38px;
+}
+h2{
+    color: #3D58A6;
 }
 .webdesign{
     display: inline-block;
