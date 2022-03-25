@@ -21,7 +21,7 @@
     margin-top: 27px;
 }
 .text1{
-    display: inline-block;
+    display: block;
     margin-top: 34px;
     margin-bottom: 30px;
 }
@@ -32,6 +32,52 @@
 .inf{
     padding-left: 10px;
 }
-.box-wrapper{
+.content-box{
+    margin-top: 38px;
+}
+.webdesign{
     display: inline-block;
+    height: 225px;
+    width: 570px;
+    background-color: #F2F2F2;
+    vertical-align: top;
+    margin-right: 89px;
+}
+.firstlogo{
+    display: inline-block;
+    height: 145px;
+    width: 102px;
+    margin-right: 65px;
+    margin-top: 13px;
+}
+.firstinfo{
+    display: inline-block;
+    height: 143px;
+    width: 355px;
+    vertical-align: middle;
+    /* margin-top: 13px; */
+}
+.development{
+    display: inline-block;
+    height: 225px;
+    width: 570px;
+    background-color: #F2F2F2;
+    vertical-align: top;
+}
+.secondlogo{
+    display: inline-block;
+    height: 127px;
+    width: 84px;
+    margin-right: 76px;
+    margin-top: 21px;
+}
+.secondinfo{
+    display: inline-block;
+    height: 156px;
+    width: 353px;
+    vertical-align: middle;
+    margin-bottom: 21px;
+}
+h2{
+    margin-top: 11px;
 }
