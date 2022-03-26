@@ -1,60 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/font.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>
-            Artboard 2
-        </title>
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>
+        Artboard 2
+    </title>
+</head>
+
+<body>
+    <div class="main_content">
         <header>
             <nav>
-                <img src="pictures/Group 2.svg" alt="html logo">
-            </nav>
-            <nav>
-                <ul style="list-style: none;">
-                    <li>
-                        მთავარი
-                    </li>
-                    <li>
-                        სიახლეები
-                    </li>
-                    <li>
-                        კონტაქტი
-                    </li>
-                </ul>
+                <a href="https://www.w3schools.com/">
+                    <img class="html-logo" src="pictures/Group 2.svg" alt="html logo">
+                </a>
+                <div class="top-side">
+                    <ul style="list-style: none;">
+                        <li class="navbar">
+                            <a class="mainpage" href="#">
+                                მთავარი
+                            </a>
+                        </li>
+                        <li class="navbar">
+                            სიახლეები
+                        </li>
+                        <li class="navbar">
+                            <a class="cont" href="contact.html">
+                                კონტაქტი
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
-            <div>
-                <p>
-                        საკონტაქტო ინფორმაცია
+    </div>    
+        <div class="grey">
+            <div class="inf">
+                <p class="cinfo" >
+                    საკონტაქტო ინფორმაცია
                 </p>
-                <p>
+                <p class="addr">
                     <span>
                         მისამართი:
                     </span>
-                        პეტრიაშვილის ქ.30
+                    პეტრიაშვილის ქ.30
                 </p>
-                <p>
+                <p class="tel">
                     <span>
                         ტელ.:
                     </span>
-                        +995 32 222 222
+                    +995 32 222 222
                 </p>
-                <p>
+                <p class="mail">
                     <span>
-                        ელ.ფოსტა:
+                        ელ.ფოსტა
                     </span>
-                        mail@gmail.com
+                    mail@gmail.com
                 </p>
             </div>
-            <footer>
-                <div>
-                    <img src="pictures/facebook.svg" alt="facebook logo">
-                    <img src="pictures/Path 2.svg" alt="youtube logo">
-                </div>
-            </footer>
-    </body>
+            <section class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.69673006514!2d44.77732021614457!3d41.7054821841765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cce3a01fef7%3A0x2a75ae2128072d6!2s30%20Vasil%20Petriashvili%20Street%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1648241689616!5m2!1sen!2sge"
+                    width="874" height="464" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="div-footer">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="flogo" src="pictures/facebook.svg" alt="facebook logo">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img class="ylogo" src="pictures/Path 2.svg" alt="youtube logo">
+            </a>
+        </div>
+    </footer>
+</body>
+
 </html>
