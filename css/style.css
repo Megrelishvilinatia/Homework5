@@ -24,7 +24,7 @@
 .mainpage{
     color: #EE4036;
 }
-.contact{
+.cont{
     color: #3D58A6;
 }
 .full-div{
@@ -65,12 +65,10 @@
     font-size: 20px;
 }
 span{
-    font-style: BPGIngiriArial;
 	font-size: 16px;
 	color: #808080;
 }
 .tel{
-	font-style: BPGIngiriArial;
 	font-size: 16px;
 	color: #000000;
     padding-left: 45px;
